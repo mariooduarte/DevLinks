@@ -36,7 +36,8 @@ body * {
 }
 
 #container {
-  width: 360px; /* largura */
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px; /* aplica um margin responsivo em ambos os lados */
   padding: 0 24px;
 }
