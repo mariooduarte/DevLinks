@@ -12,20 +12,14 @@ body {
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
-  --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(255, 255, 255, 0.02);
+  --bg-url: #151515;
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
-  --stroke-color: rgba(0, 0, 0, 0.5);
-  --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --bg-url: #e0e0e0;
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
 }
@@ -51,12 +45,20 @@ body * {
 #profile img {
   width: 112px;
   margin: auto;
+  border-radius: 50%;
 }
 
-#profile p {
-  font-weight: 500; /* peso da fonte */
+#name {
+  font-size: 24px;
+  font-weight: 600; /* peso da fonte */
   line-height: 24px; /* altura de linha */
   margin-top: 8px;
+}
+
+#descricao {
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 5px;
 }
 
 /* switch */
@@ -94,7 +96,7 @@ body * {
   display: block;
   width: 64px;
   height: 24px;
-  background: var(--surface-color);
+  background: #bdbdbd;
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -114,10 +116,10 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
 
-  border-radius: 8px;
-  background: var(--surface-color);
-  border: 1px solid var(--stroke-color);
+  border-radius: 60px;
+  background: #4527A0;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 
@@ -130,8 +132,7 @@ ul li a {
 }
 
 ul li a:hover {
-  border: 1.5px solid var(--text-color);
-  background: var(--surface-color-hover);
+  background: #512DA8;
 }
 
 /* social links */
@@ -139,7 +140,6 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   font-size: 24px;
-  padding: 24px 0;
 }
 
 #social-links a {
@@ -156,12 +156,17 @@ ul li a:hover {
 
 footer {
   text-align: center;
-  padding: 24px;
+  padding: 10px;
   font-size: 14px;
 }
 
+footer ion-icon {
+  font-size: 20px;
+  transform: translateY(20%);
+}
+
 /* media queries */
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
@@ -169,7 +174,7 @@ footer {
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
-}
+} */
 
 /* animations */
 @keyframes slide-in {
