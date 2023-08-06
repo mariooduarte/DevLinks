@@ -7,7 +7,6 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
 }
 
 :root {
@@ -104,7 +103,7 @@ body * {
   border-radius: 9999px;
 }
 
-/* links */
+/* button links */
 ul {
   list-style: none;
   display: flex;
