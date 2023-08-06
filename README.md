@@ -1,14 +1,12 @@
 <h1 align="center"> DevLinks </h1>
 
-<br>
-
 <p align="center">
 Projeto desenvolvido durante o curso <a href="https://rocketseat.com.br/discover">Discover</a> da Rocketseat.
 </p>
 
-<br>
+---
 
-# <h3 align="center">Tecnologias</h3>
+<h3 align="center">Tecnologias</h3>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="30" height="30"/>
@@ -17,7 +15,9 @@ Projeto desenvolvido durante o curso <a href="https://rocketseat.com.br/discover
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/>
 </p>
 
-# <h3 align="center">Licença</h3>
+---
+
+<h3 align="center">Licença</h3>
 
 <p align="center">Esse projeto está sob a licença MIT.</p>
 
