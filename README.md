@@ -1,6 +1,6 @@
 # DevLinks <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 
-Projeto desenvolvido durante o curso <a href="https://rocketseat.com.br/discover" target="_blank">Discover</a> da Rocketseat.
+DevLinks é um agregador de links desenvolvido durante o curso <a href="https://rocketseat.com.br/discover" target="_blank">Discover</a> da Rocketseat.
 
 ## Tecnologias
 
